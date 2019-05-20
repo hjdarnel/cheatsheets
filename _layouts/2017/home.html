@@ -30,13 +30,7 @@
     </p>
 
     {% include 2017/search-form.html live=true %}
-
-    {% if site.data.codefund.enabled %}
-    <div class='adbox' role='complementary'>
-      {% include 2017/codefund.html %}
-    </div>
-    {% endif %}
-  </div>
+</div>
 
   <div class='pages-list' role='main'>
     {% for page in featured_pages %}
@@ -67,14 +61,15 @@
         {% endif %}
       {% endfor %}
     {% endfor %}
-
+    {% comment %}
     <div class='message item missing-message'>
       <h3>See something missing?</h3>
       <p>
         <a class='push-button' href='{{ site.github.repository_url }}/issues/907'>Request cheatsheet</a>
       </p>
     </div>
-  </div>
+    {% endcomment %}
+  </div> -->
 </div>
 
 {% include 2017/announcements-list.html %}

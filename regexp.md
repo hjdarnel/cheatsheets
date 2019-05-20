@@ -10,8 +10,6 @@ description: |
   Basic cheatsheets for regular expression
 ---
 
-##
-
 {: .-three-column}
 
 ### Character classes
@@ -62,4 +60,3 @@ description: |
 | `a{,3}`  | Match up to 3         |
 | `a{3,}`  | Match 3 or more       |
 | `a{1,3}` | Match between 1 and 3 |
-
